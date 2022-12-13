@@ -24,3 +24,16 @@ conda activate ks3-to-other
 streamlit run main.py
 ```
 
+
+### Once you saved the csv files, you can run post-hoc plots using jupyter-lab
+in another prompt
+```angular2html
+jupyter-lab notebooks/
+```
+
+
+#### rasters to examine different time points in recording
+![three 10s example x 30 neuron raster](./temp_figs/example_raster.png "rasters")
+
+#### neural activity distribution over the course of recording
+![three sets of neurons x activity histogram](./temp_figs/example_activity_histogram.png "activity histogram")
