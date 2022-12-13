@@ -6,7 +6,7 @@ import pandas as pd
 
 from utils.load_ephys import kilosort3_loader
 
-st.set_page_config(page_title='ks3-to-other', page_icon='〰',
+st.set_page_config(page_title='Readable Kilosort', page_icon='〰',
                    initial_sidebar_state="auto")
 
 st.set_option('deprecation.showPyplotGlobalUse', False)

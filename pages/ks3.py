@@ -6,7 +6,10 @@ from utils.ui import ks3_prompt
 from utils.load_ephys import kilosort3_loader, get_neuron_spike
 from utils.convert import df_to_csv
 
-st.title('Kilosort3 to Other Formats')
+st.set_page_config(page_title='Kilosort3', page_icon='〰',
+                   initial_sidebar_state="auto")
+
+st.title('Organize kilosort3 outputs into readable table')
 
 col1, col2 = st.columns(2)
 outname = col1.text_input('filename?', 'spiketimes')
